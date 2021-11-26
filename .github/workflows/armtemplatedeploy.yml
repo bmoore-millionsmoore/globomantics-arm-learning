@@ -46,7 +46,7 @@ jobs:
  
           - name: Deploy Virtual machine
             uses: Azure/arm-deploy@v1
-              with:
+            with:
               scope: resourcegroup
               resourceGroupName: rg-githubactions
               subscriptionId: 2675b1a4-e6f2-49ba-b60d-653963841e47

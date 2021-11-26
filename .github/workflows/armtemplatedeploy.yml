@@ -45,3 +45,4 @@ jobs:
               deploymentMode: incremental
  
           - run: echo ${{ steps.storageAccountDeploy.outputs.BlobUri }}
+
